@@ -1,8 +1,5 @@
 name: mend_scan
 on:
-  schedule:
-    # run every day at 4:00am
-    - cron: 0 4 * * *
   workflow_dispatch:
   push:
     branches:
